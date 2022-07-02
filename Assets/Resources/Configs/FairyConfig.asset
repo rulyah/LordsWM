@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cdcca01de96f45e1a2fb0eb212b94d3, type: 3}
+  m_Name: FairyConfig
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 9163922273853922857, guid: ea06bade446d743af8ac7be97e9989cb, type: 3}
+  posX: 1
+  posY: 15
+  attack: 0
+  defence: 0
+  health: 0
+  speed: 0
+  minDamage: 0
+  maxDamage: 0
+  proactiveness: 0
