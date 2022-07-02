@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cdcca01de96f45e1a2fb0eb212b94d3, type: 3}
   m_Name: TreeConfig
   m_EditorClassIdentifier: 
-  prefab: {fileID: 6860970344108432891, guid: 3770db391fe9f418e8f313f65c1a33ad, type: 3}
-  posX: 10
-  posY: 10
+  prefab: {fileID: 7924044138481704259, guid: f8477098962504ace92f353118c989ba, type: 3}
+  posX: 7
+  posY: 7
   attack: 0
   defence: 0
   health: 0
   speed: 0
   minDamage: 0
   maxDamage: 0
-  proactiveness: 0
+  proactiveness: 5

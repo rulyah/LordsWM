@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cdcca01de96f45e1a2fb0eb212b94d3, type: 3}
   m_Name: FairyConfig
   m_EditorClassIdentifier: 
-  prefab: {fileID: 9163922273853922857, guid: ea06bade446d743af8ac7be97e9989cb, type: 3}
+  prefab: {fileID: 2841860945265064948, guid: c69ec98b36e504197aabe06948387c77, type: 3}
   posX: 1
-  posY: 15
+  posY: 6
   attack: 0
   defence: 0
   health: 0
   speed: 0
   minDamage: 0
   maxDamage: 0
-  proactiveness: 0
+  proactiveness: 10

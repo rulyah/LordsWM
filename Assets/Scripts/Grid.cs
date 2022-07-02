@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Grid : MonoBehaviour
@@ -12,19 +13,27 @@ public class Grid : MonoBehaviour
     public float paddingY = 0.1f;
 
     public List<Cell> cubes;
-    
+    public List<CharConfig> queue;
 
+    
     public void SpawnUnit()
     {
+        queue = new List<CharConfig>();
+        
         var charConfigs1 = Resources.LoadAll<CharConfig>("Configs/");
+        
         foreach (var unitConfig in charConfigs1)
         { 
             var unit = Instantiate(unitConfig.prefab);
             Cell currentCell = SearchCell(new Vector2Int(unitConfig.posX, unitConfig.posY));
-            unit.transform.position = currentCell.transform.position - new Vector3(0, 0, 0.05f);
-            unit.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
-
+            unit.transform.position = currentCell.transform.position - new Vector3(0, 0, 0.07f);
+            unit.transform.localScale = new Vector3(0.3f, 0.3f, 0.2f);
+            unitConfig.proactiveness = unitConfig.InitCalculate(unitConfig.proactiveness);
+            queue.Add(unitConfig);
         }
+
+        queue.Sort();
+        queue.Reverse();
     }
 
     public Cell SearchCell(Vector2Int pos)
@@ -82,8 +91,6 @@ public class Grid : MonoBehaviour
             }
         }
         
-        
-
         SpawnUnit();
 
     }

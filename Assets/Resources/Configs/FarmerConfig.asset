@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cdcca01de96f45e1a2fb0eb212b94d3, type: 3}
   m_Name: FarmerConfig
   m_EditorClassIdentifier: 
-  prefab: {fileID: 3137989755739118831, guid: 5b6473a2bd0fd4cc09dee68836aab3b5, type: 3}
+  prefab: {fileID: 55861667395296794, guid: 661c30dfe35124974bebb258e0a1ca2b, type: 3}
   posX: 3
   posY: 3
   attack: 0
@@ -21,4 +21,4 @@ MonoBehaviour:
   speed: 0
   minDamage: 0
   maxDamage: 0
-  proactiveness: 0
+  proactiveness: 6
