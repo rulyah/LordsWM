@@ -3,7 +3,6 @@ using UnityEngine;
 public class CameraRaycaster : MonoBehaviour
 {
     public Camera camera;
-    public Cell cell;
     
     void Start()
     {

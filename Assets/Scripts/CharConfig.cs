@@ -19,10 +19,7 @@ public class CharConfig : ScriptableObject
     public int maxDamage;
     public float proactiveness;
     
-    public float InitCalculate(float init)
-    {
-        return init += Random.Range(init * -0.1f, init * 0.1f);
-    }
+    
 
     void Start()
     {

@@ -5,39 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dbe1492-783a-4fd8-be90-5c218c3e978d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HWM/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HWM/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HWM/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HWM/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HWM/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/FarmerPhoto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/FarmerPhoto.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/FayriPhoto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/FayriPhoto.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/GoblinPhoto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/GoblinPhoto.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/TreePhoto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/TreePhoto.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Units/FairyPrefab 1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Units/FairyPrefab 1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Units/FarmerPrefab 1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Units/FarmerPrefab 1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Units/TreePrefab 1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Units/TreePrefab 1.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/TreePhoto.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/TreePhoto.jpeg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Units/FairyPrefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Units/FairyPrefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Units/FarmerPrefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Units/FarmerPrefab.prefab.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ATB.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ATB.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HWM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HWM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Units/FairyPrefab 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Units/FairyPrefab 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Units/FarmerPrefab 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Units/FarmerPrefab 1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Units/GoblinPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Units/GoblinPrefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Units/TreePrefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Units/TreePrefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Configs/FairyConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Configs/FairyConfig.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Configs/FarmerConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Configs/FarmerConfig.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Configs/GoblinConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Configs/GoblinConfig.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Configs/TreeConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Configs/TreeConfig.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Units/TreePrefab 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Units/TreePrefab 1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/123456.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/123456.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraRaycaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraRaycaster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Char.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Char.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharConfig.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Grid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Grid.cs" afterDir="false" />
     </list>
@@ -73,6 +50,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="rider.run.widget.enabled.cache" value="false" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -105,7 +83,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656775905758</updated>
-      <workItem from="1656775909999" duration="5066000" />
+      <workItem from="1656775909999" duration="5439000" />
+      <workItem from="1656840209604" duration="11131000" />
     </task>
     <servers />
   </component>
@@ -113,7 +92,7 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
