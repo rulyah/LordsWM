@@ -4,7 +4,7 @@ using UnityEngine;
 public class Grid : MonoBehaviour
 {
     public CameraRaycaster cameraRaycaster;
-
+    public ATB atb;
     public GameObject prefab;
     public int sizeX = 12;
     public int sizeY = 18;
@@ -12,14 +12,12 @@ public class Grid : MonoBehaviour
     public float paddingY = 0.1f;
 
     public List<Cell> cubes;
-    public static List<GameObject> queue;
 
 
     
     public void SpawnUnit()
     {
-        queue = new List<GameObject>();
-
+        var queue = new List<Char>();
         
         var charConfigs1 = Resources.LoadAll<CharConfig>("Configs/");
         
@@ -29,11 +27,26 @@ public class Grid : MonoBehaviour
             Cell currentCell = SearchCell(new Vector2Int(unitConfig.posX, unitConfig.posY));
             unit.transform.position = currentCell.transform.position - new Vector3(0, 0, 0.07f);
             unit.transform.localScale = new Vector3(0.3f, 0.3f, 0.2f);
-            queue.Add(unit);
+            Char c = unit.GetComponent<Char>();
+            currentCell.charInCell = c;
+            c.currentCell = currentCell;
+            queue.Add(c);
             
         }
+        
+        atb.FillList(queue);
+
     }
 
+    public bool CanMove(Cell pos)
+    {
+        if (pos.charInCell != null)
+        {
+            return false;
+        }
+
+        return true;
+    }
 
     public Cell SearchCell(Vector2Int pos)
     {
@@ -91,6 +104,7 @@ public class Grid : MonoBehaviour
         }
         
         SpawnUnit();
+        
 
     }
 

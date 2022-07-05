@@ -3,10 +3,13 @@ using UnityEngine;
 public class CameraRaycaster : MonoBehaviour
 {
     public Camera camera;
+    public ATB atb;
+    public Grid grid;
+    
     
     void Start()
     {
-        Vector3 BotLeftCorner = camera.ViewportToWorldPoint(new Vector3(0,0,10));
+        /*Vector3 BotLeftCorner = camera.ViewportToWorldPoint(new Vector3(0,0,10));
         GameObject botLeft = GameObject.CreatePrimitive(PrimitiveType.Sphere);
         botLeft.transform.position = BotLeftCorner;
         
@@ -22,7 +25,7 @@ public class CameraRaycaster : MonoBehaviour
         GameObject topRighr = GameObject.CreatePrimitive(PrimitiveType.Sphere);
         topRighr.transform.position = TopRightCorner;
 
-        float distance = Vector3.Distance(TopLeftCorner, TopRightCorner);
+        float distance = Vector3.Distance(TopLeftCorner, TopRightCorner);*/
     }
 
     private void Update()
@@ -33,16 +36,28 @@ public class CameraRaycaster : MonoBehaviour
             if (Physics.Raycast(ray, out RaycastHit hit, 100.0f))
             {
                 Cell cellCoordinate = hit.transform.GetComponent<Cell>();
-                Debug.Log($"{cellCoordinate.positionX.ToString()} + {cellCoordinate.positionY.ToString()}");
+                if (grid.CanMove(cellCoordinate) == true)
+                {
+                    atb.currentChar.MoveTo(cellCoordinate);
+                    atb.TurnEnd();
+                }
+                
             }
 
         }
 
-        Ray ray1 = camera.ScreenPointToRay(Input.mousePosition);
+        /*Ray ray1 = camera.ScreenPointToRay(Input.mousePosition);
         if (Physics.Raycast(ray1, out RaycastHit hit1, 200.0f))
         {
             MeshRenderer mesh = hit1.transform.GetComponent<MeshRenderer>();
             mesh.sharedMaterial.color = Random.ColorHSV();
+        }*/
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            atb.TurnEnd();
         }
+
+        
     }
 }

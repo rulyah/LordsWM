@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dbe1492-783a-4fd8-be90-5c218c3e978d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ATB.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ATB.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HWM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HWM/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Units/FairyPrefab 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Units/FairyPrefab 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Units/FarmerPrefab 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Units/FarmerPrefab 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Units/GoblinPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Units/GoblinPrefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Units/TreePrefab 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Units/TreePrefab 1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/123456.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/123456.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ATB.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ATB.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraRaycaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraRaycaster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Cell.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Char.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Char.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharConfig.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Grid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Grid.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +80,17 @@
       <updated>1656775905758</updated>
       <workItem from="1656775909999" duration="5439000" />
       <workItem from="1656840209604" duration="11131000" />
+      <workItem from="1656953261670" duration="524000" />
+      <workItem from="1657033982682" duration="9730000" />
     </task>
+    <task id="LOCAL-00001" summary="new class ATB">
+      <created>1656953634335</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656953634336</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,5 +113,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="new class ATB" />
+    <option name="LAST_COMMIT_MESSAGE" value="new class ATB" />
   </component>
 </project>

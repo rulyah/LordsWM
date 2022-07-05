@@ -222,6 +222,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 1222536242}
+  atb: {fileID: 1222536246}
+  grid: {fileID: 1222536245}
 --- !u!114 &1222536245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,13 +237,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraRaycaster: {fileID: 1222536244}
+  atb: {fileID: 1222536246}
   prefab: {fileID: 837598543619786613, guid: bb16188ec062f457d9c1b2221212a3bc, type: 3}
   sizeX: 12
   sizeY: 8
   paddingX: 0
   paddingY: 0
   cubes: []
-  queue: []
 --- !u!114 &1222536246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -254,6 +256,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a6d0aabd6c8a4353847e606bb718ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentChar: {fileID: 0}
+  atbList: []
 --- !u!1 &1681156641
 GameObject:
   m_ObjectHideFlags: 0

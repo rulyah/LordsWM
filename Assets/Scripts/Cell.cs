@@ -6,12 +6,14 @@ public class Cell : MonoBehaviour
 {
     public int positionX;
     public int positionY;
-    
-    
-    
 
-    
-    
-    
+    public Char charInCell;
+
+
+
+
+
+
+
 
 }
