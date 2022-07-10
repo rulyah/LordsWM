@@ -244,6 +244,7 @@ MonoBehaviour:
   paddingX: 0
   paddingY: 0
   cubes: []
+  cellInRange: []
 --- !u!114 &1222536246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -258,6 +259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentChar: {fileID: 0}
   atbList: []
+  grid: {fileID: 1222536245}
 --- !u!1 &1681156641
 GameObject:
   m_ObjectHideFlags: 0

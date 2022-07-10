@@ -12,6 +12,7 @@ public class Grid : MonoBehaviour
     public float paddingY = 0.1f;
 
     public List<Cell> cubes;
+    public List<Cell> cellInRange;
 
 
     
@@ -38,6 +39,38 @@ public class Grid : MonoBehaviour
 
     }
 
+    public void ClearGrid()
+    {
+        for (int i = 0; i < cubes.Count; i++)
+        {
+            MeshRenderer mesh = cubes[i].GetComponent<MeshRenderer>();
+            mesh.sharedMaterial.color = Color.white;
+        }
+    }
+
+    
+    public void SpeedRang(Cell pos)
+    {
+        cellInRange = new List<Cell>();
+        for (int i = 0; i < cubes.Count; i++)
+        {
+            float distance = Vector2Int.Distance(new Vector2Int(pos.positionX, pos.positionY),
+                new Vector2Int(cubes[i].positionX, cubes[i].positionY));
+            if (distance <= atb.currentChar.config.speed)
+            {
+                cellInRange.Add(cubes[i]);
+            }
+
+        }
+
+        for (int i = 0; i < cellInRange.Count; i++)
+        {
+            MeshRenderer mesh = cellInRange[i].meshRenderer;
+            mesh.sharedMaterial.color = Color.green;
+        }
+        pos.meshRenderer.sharedMaterial.color = Color.yellow;
+        
+    }
     public bool CanMove(Cell pos)
     {
         if (pos.charInCell != null)
@@ -104,7 +137,8 @@ public class Grid : MonoBehaviour
         }
         
         SpawnUnit();
-        
+        SpeedRang(atb.currentChar.currentCell);
+
 
     }
 

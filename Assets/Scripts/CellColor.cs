@@ -21,7 +21,7 @@ public class CellColor : MonoBehaviour
             float g = _meshRenderer.sharedMaterial.color.g;
             float b = _meshRenderer.sharedMaterial.color.b;
             
-            if (r < 1)
+            /*if (r < 1)
             {
                 r += 0.01f;
             }
@@ -34,7 +34,7 @@ public class CellColor : MonoBehaviour
             if (b < 1)
             {
                 b += 0.01f;
-            }
+            }*/
 
             Color col = new Color(r, g, b);
             _meshRenderer.sharedMaterial.color = col;

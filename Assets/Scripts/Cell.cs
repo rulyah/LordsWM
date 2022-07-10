@@ -9,7 +9,7 @@ public class Cell : MonoBehaviour
 
     public Char charInCell;
 
-
+    public MeshRenderer meshRenderer;
 
 
 

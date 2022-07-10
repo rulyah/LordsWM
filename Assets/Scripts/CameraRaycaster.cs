@@ -9,6 +9,7 @@ public class CameraRaycaster : MonoBehaviour
     
     void Start()
     {
+
         /*Vector3 BotLeftCorner = camera.ViewportToWorldPoint(new Vector3(0,0,10));
         GameObject botLeft = GameObject.CreatePrimitive(PrimitiveType.Sphere);
         botLeft.transform.position = BotLeftCorner;
@@ -38,12 +39,15 @@ public class CameraRaycaster : MonoBehaviour
                 Cell cellCoordinate = hit.transform.GetComponent<Cell>();
                 if (grid.CanMove(cellCoordinate) == true)
                 {
-                    atb.currentChar.MoveTo(cellCoordinate);
-                    atb.TurnEnd();
+                    if (atb.currentChar.MoveTo(cellCoordinate) == true)
+                    {
+                        atb.TurnEnd();
+                        
+                    }
+                
                 }
                 
             }
-
         }
 
         /*Ray ray1 = camera.ScreenPointToRay(Input.mousePosition);

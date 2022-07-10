@@ -7,6 +7,7 @@ public class ATB : MonoBehaviour
 
     public Char currentChar;
     public List<Char> atbList;
+    public Grid grid;
 
     public void FillList(List<Char> units)
     {
@@ -25,6 +26,9 @@ public class ATB : MonoBehaviour
         atbList.Remove(atbList[0]);
         atbList.Add(currentChar);
         currentChar = atbList[0];
+        grid.ClearGrid();
+        grid.SpeedRang(currentChar.currentCell);
+
     }
     
     

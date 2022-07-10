@@ -111,6 +111,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionX: 0
   positionY: 0
+  charInCell: {fileID: 0}
+  meshRenderer: {fileID: 792138561429717244}
 --- !u!114 &-8142345805948733325
 MonoBehaviour:
   m_ObjectHideFlags: 0
